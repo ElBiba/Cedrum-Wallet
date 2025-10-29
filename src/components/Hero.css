@@ -1,0 +1,12 @@
+.cedrum_logo {
+  display: block;
+  width: 140px;
+  height: auto;
+  margin: 0 auto 100px;
+  transform: scale(3.5);
+}
+.text-white-1 {
+  font-size: 3rem;
+  font-weight: 700;
+    color: #ffffff;
+}
