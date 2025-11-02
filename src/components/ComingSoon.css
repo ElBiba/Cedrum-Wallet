@@ -1,0 +1,10 @@
+.back-home-button {
+	color: rgba(59, 130, 246, 1);
+	border-color: #3b82f6;
+	transition: all 0.3s ease;
+}
+.back-home-button:hover {
+	color: rgba(59, 130, 246, 1);
+	background: #1e293b22;
+	border-color: #2563eb;
+}

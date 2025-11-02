@@ -32,7 +32,7 @@ export function About() {
       
       <div className="max-w-7xl mx-auto relative z-10">
         <div className="text-center mb-16">
-          <h2 className="text-blue-400 mb-4">About Us</h2>
+          <h1 className="text-blue-400 mb-4 " style={{fontSize: '32px'}}>About Us</h1>
           <p className="text-blue-200 text-xl max-w-3xl mx-auto">
             Cedrum is more than just a cryptocurrency wallet. We're building the future of digital finance on the Cedra Network, 
             combining cutting-edge technology with user-friendly design.

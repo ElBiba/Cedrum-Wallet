@@ -40,7 +40,7 @@ export function Contact() {
 
       <div className="max-w-7xl mx-auto relative z-10">
         <div className="text-center mb-16">
-          <h2 className="text-blue-400 mb-4">Get in Touch</h2>
+          <h2 className="text-blue-400 mb-4" style={{fontSize: 30}}>Get in Touch</h2>
           <p className="text-blue-200 text-xl max-w-3xl mx-auto">
             Join our community and stay updated with the latest news, features, and developments.
           </p>
@@ -73,7 +73,7 @@ export function Contact() {
         <div className="mt-16 max-w-3xl mx-auto text-center">
           <Card className="bg-gradient-to-br from-blue-950/30 to-indigo-950/30 border-blue-800/30 backdrop-blur-sm">
             <CardContent className="p-8">
-              <h3 className="text-white mb-4">Stay Updated</h3>
+              <h3 className="text-white mb-4" style={{fontSize: 20}}>Stay Updated</h3>
               <p className="text-blue-300 mb-6">
                 Follow us on social media to get the latest updates, announcements, and community events.
               </p>

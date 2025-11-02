@@ -1,7 +1,7 @@
 import { Button } from "./ui/button";
 import { ArrowLeft, Twitter } from "lucide-react";
 import { Link } from "react-router-dom";
-
+import "./ComingSoon.css";
 export function ComingSoon() {
   return (
     <div className="min-h-screen bg-[#0a0a1a] relative overflow-hidden">
@@ -48,10 +48,10 @@ export function ComingSoon() {
 
           <div className="flex gap-4 justify-center flex-wrap pt-8">
             <Link to="/">
-              <Button variant="outline" className="border-blue-500 text-blue-300 hover:bg-blue-950 px-8 py-6">
-                <ArrowLeft className="mr-2 w-5 h-5" />
-                Back to Home
-              </Button>
+                <Button variant="outline" className="back-home-button px-8 py-6">
+                  <ArrowLeft className="mr-2 w-5 h-5" />
+                  Back to Home
+                </Button>
             </Link>
             <a href="https://x.com/Cedrum_Wallet" target="_blank" rel="noopener noreferrer">
               <Button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-6">

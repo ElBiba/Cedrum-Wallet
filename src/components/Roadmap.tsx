@@ -2,7 +2,7 @@ import { CheckCircle2, Circle, Clock } from "lucide-react";
 
 const roadmapItems = [
   {
-    quarter: "Q1",
+    quarter: "Q4 2025",
     title: "Foundation",
     status: "completed",
     items: [
@@ -13,7 +13,7 @@ const roadmapItems = [
     ]
   },
   {
-    quarter: "Q2",
+    quarter: "Q1 2026",
     title: "Technical Infrastructure (Chrome Extension)",
     status: "upcoming",
     items: [
@@ -24,7 +24,7 @@ const roadmapItems = [
     ]
   },
   {
-    quarter: "Q3",
+    quarter: "Q2 2026",
     title: "Cedrum Extension Beta",
     status: "upcoming",
     items: [
@@ -35,7 +35,7 @@ const roadmapItems = [
     ]
   },
   {
-    quarter: "Q4",
+    quarter: "Q3 2026",
     title: "Public Release of Cedrum Extension",
     status: "upcoming",
     items: [
@@ -46,7 +46,7 @@ const roadmapItems = [
     ]
   },
   {
-    quarter: "Q5",
+    quarter: "Q4 2026",
     title: "Optimization and Monetization",
     status: "upcoming",
     items: [
@@ -57,7 +57,7 @@ const roadmapItems = [
     ]
   },
   {
-    quarter: "Q6",
+    quarter: "Q1 2027",
     title: "Preparation for Mobile Platforms",
     status: "upcoming",
     items: [
@@ -96,7 +96,7 @@ export function Roadmap() {
 
       <div className="max-w-7xl mx-auto relative z-10">
         <div className="text-center mb-16">
-          <h2 className="text-blue-400 mb-4">Roadmap</h2>
+          <h2 className="text-blue-400 mb-4" style={{fontSize: 30}}>Roadmap</h2>
           <p className="text-blue-200 text-xl max-w-3xl mx-auto">
             Our journey to revolutionize cryptocurrency wallets. Follow our progress as we build the future together.
           </p>
