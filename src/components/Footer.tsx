@@ -5,7 +5,7 @@ export function Footer() {
       <div className="max-w-7xl mx-auto">
         <div className="flex flex-col md:flex-row items-center justify-between gap-4">
           <div className="flex items-center gap-2">
-           <img className="cedrum_logo" src="https://i.ibb.co/QvpDbVsx/image-3-1.png"/>
+           <img className="cedrum_logo_footer" src="https://i.ibb.co/QvpDbVsx/image-3-1.png"/>
            <span className="text-white">Cedrum</span>
           </div>
 
