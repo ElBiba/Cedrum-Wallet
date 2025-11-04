@@ -1,10 +1,12 @@
+import "./Footer.css";
 export function Footer() {
   return (
     <footer className="py-8 px-4 border-t border-blue-900/30 relative">
       <div className="max-w-7xl mx-auto">
         <div className="flex flex-col md:flex-row items-center justify-between gap-4">
           <div className="flex items-center gap-2">
-            <span className="text-white">Cedrum</span>
+           <img className="cedrum_logo" src="https://i.ibb.co/QvpDbVsx/image-3-1.png"/>
+           <span className="text-white">Cedrum</span>
           </div>
 
           <p className="text-blue-400 text-sm text-center">
