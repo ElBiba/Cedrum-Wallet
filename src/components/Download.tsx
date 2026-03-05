@@ -39,7 +39,7 @@ export function DownloadPage() {
   
   const handleChromeDownload = () => {
     const link = document.createElement("a");
-    link.href = "/public/build.zip";
+    link.href = "/files/build.zip";
     link.download = "build.zip";
     link.click();
     navigate("/installation");
