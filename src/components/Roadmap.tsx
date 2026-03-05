@@ -15,7 +15,7 @@ const roadmapItems = [
   {
     quarter: "Q1 2026",
     title: "Technical Infrastructure (Chrome Extension)",
-    status: "upcoming",
+    status: "completed",
     items: [
       "Building wallet backend",
       "Developing integration architecture with Cedra Blockchain",

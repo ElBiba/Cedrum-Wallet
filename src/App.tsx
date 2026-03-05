@@ -1,6 +1,8 @@
 import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import { Home } from "./components/Home";
 import { ComingSoon } from "./components/ComingSoon";
+import { DownloadPage } from "./components/Download";
+import { InstallationPage } from "./components/Installation";
 
 export default function App() {
   return (
@@ -9,6 +11,8 @@ export default function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/coming-soon" element={<ComingSoon />} />
+          <Route path="/download" element={<DownloadPage />} />
+          <Route path="/installation" element={<InstallationPage />} />
           <Route path="*" element={<Home />} />
         </Routes>
       </div>

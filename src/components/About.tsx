@@ -27,9 +27,7 @@ const features = [
 export function About() {
   return (
     <section id="about" className="py-24 px-4 relative">
-      {/* Background gradient */}
       <div className="absolute inset-0 bg-gradient-to-b from-[#0a0a1a] via-[#0f0f2e] to-[#0a0a1a] opacity-50"></div>
-      
       <div className="max-w-7xl mx-auto relative z-10">
         <div className="text-center mb-16">
           <h1 className="text-blue-400 mb-4 " style={{fontSize: '32px'}}>About Us</h1>
@@ -38,7 +36,6 @@ export function About() {
             combining cutting-edge technology with user-friendly design.
           </p>
         </div>
-
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {features.map((feature, index) => (
             <Card 

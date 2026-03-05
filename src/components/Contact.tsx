@@ -26,7 +26,7 @@ const socialLinks = [
   },
   {
     name: "Email",
-    handle: "poluluartem8@gmail.com",
+    handle: "cedrum738@gmail.com",
     icon: Mail,
     color: "hover:bg-purple-600"
   }
@@ -35,9 +35,7 @@ const socialLinks = [
 export function Contact() {
   return (
     <section id="contact" className="py-24 px-4 relative">
-      {/* Background gradient */}
       <div className="absolute inset-0 bg-gradient-to-t from-[#0a0a1a] via-[#0f0f2e] to-transparent opacity-50"></div>
-
       <div className="max-w-7xl mx-auto relative z-10">
         <div className="text-center mb-16">
           <h2 className="text-blue-400 mb-4" style={{fontSize: 30}}>Get in Touch</h2>
@@ -45,7 +43,6 @@ export function Contact() {
             Join our community and stay updated with the latest news, features, and developments.
           </p>
         </div>
-
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto">
           {socialLinks.map((social, index) => (
             <Card 
@@ -69,7 +66,6 @@ export function Contact() {
             </Card>
           ))}
         </div>
-
         <div className="mt-16 max-w-3xl mx-auto text-center">
           <Card className="bg-gradient-to-br from-blue-950/30 to-indigo-950/30 border-blue-800/30 backdrop-blur-sm">
             <CardContent className="p-8">

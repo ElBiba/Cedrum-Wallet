@@ -5,7 +5,6 @@ import "./ComingSoon.css";
 export function ComingSoon() {
   return (
     <div className="min-h-screen bg-[#0a0a1a] relative overflow-hidden">
-      {/* Background effects */}
       <div className="absolute inset-0">
         <div className="absolute inset-0 opacity-40">
           <div className="absolute top-0 left-0 w-full h-full" style={{
@@ -15,8 +14,6 @@ export function ComingSoon() {
           <div className="absolute bottom-20 right-10 w-96 h-96 bg-indigo-600 opacity-20 transform -rotate-45 blur-3xl"></div>
         </div>
       </div>
-
-      {/* Content */}
       <div className="relative z-10 flex flex-col items-center justify-center min-h-screen px-4 py-20">
         <div className="max-w-3xl mx-auto text-center space-y-8">
           <h1 className="text-white mb-4">Cedrum Extension — Coming Soon</h1>
@@ -29,7 +26,6 @@ export function ComingSoon() {
               Our team is actively building and testing to ensure you get the most secure and seamless wallet experience on the Cedra Blockchain.
             </p>
           </div>
-
           <div className="pt-8 space-y-6">
             <p className="text-blue-300 text-xl">
               Stay connected — the launch is closer than you think.
@@ -39,13 +35,11 @@ export function ComingSoon() {
               that's where the first download opportunity will be announced.
             </p>
           </div>
-
           <div className="pt-8">
             <p className="text-white text-2xl tracking-wide">
               Be early. Be ready. Be part of Cedrum.
             </p>
           </div>
-
           <div className="flex gap-4 justify-center flex-wrap pt-8">
             <Link to="/">
                 <Button variant="outline" className="back-home-button px-8 py-6">
