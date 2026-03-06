@@ -1,6 +1,7 @@
 import { Button } from "./ui/button";
 import { ArrowLeft, Download, Chrome, Smartphone } from "lucide-react";
 import { Link, useNavigate } from "react-router-dom";
+import { useState, useEffect } from "react";
 import "./Download.css";
 
 interface PlatformCardProps {
@@ -36,6 +37,16 @@ function PlatformCard({ icon, title, description, comingSoon, onDownload }: Plat
 
 export function DownloadPage() {
   const navigate = useNavigate();
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const checkMobile = () => {
+      setIsMobile(window.innerWidth < 768);
+    };
+    checkMobile();
+    window.addEventListener('resize', checkMobile);
+    return () => window.removeEventListener('resize', checkMobile);
+  }, []);
   
   const handleChromeDownload = () => {
     window.open("/files/build.zip");
@@ -63,12 +74,14 @@ export function DownloadPage() {
           </div>
 
           <div className="platforms-row">
-            <PlatformCard 
-              icon={<Chrome className="w-8 h-8" />}
-              title="Chrome Extension"
-              description="Add Cedrum to your Chrome browser"
-              onDownload={handleChromeDownload}
-            />
+            {!isMobile && (
+              <PlatformCard 
+                icon={<Chrome className="w-8 h-8" />}
+                title="Chrome Extension"
+                description="Add Cedrum to your Chrome browser"
+                onDownload={handleChromeDownload}
+              />
+            )}
             <PlatformCard 
               icon={<Smartphone className="w-8 h-8" />}
               title="Mobile App"
