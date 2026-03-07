@@ -54,13 +54,13 @@ export function DownloadPage() {
   };
 
   return (
-    <div className="min-h-screen bg-[#0a0a1a] relative overflow-hidden">
+    <div className="min-h-screen bg-[#0a0a1a] relative overflow-x-hidden">
       <div className="absolute inset-0 bg-gradient-to-b from-[#0a0a1a] via-[#0f0f2e] to-[#0a0a1a]"></div>
       <div className="absolute inset-0 opacity-30">
         <div className="absolute top-20 left-10 w-96 h-96 bg-blue-600 opacity-20 transform rotate-45 blur-3xl"></div>
         <div className="absolute bottom-20 right-10 w-96 h-96 bg-indigo-600 opacity-20 transform -rotate-45 blur-3xl"></div>
       </div>
-      <div className="relative z-10 flex flex-col items-center justify-center min-h-screen px-4 py-20">
+      <div className="relative z-10 flex flex-col items-center justify-center min-h-screen px-4 py-12 md:py-20">
         <div className="max-w-4xl mx-auto text-center space-y-8">
           <h1 className="title">Download Cedrum Wallet</h1>
           

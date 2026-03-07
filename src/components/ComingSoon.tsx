@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import "./ComingSoon.css";
 export function ComingSoon() {
   return (
-    <div className="min-h-screen bg-[#0a0a1a] relative overflow-hidden">
+    <div className="min-h-screen bg-[#0a0a1a] relative overflow-x-hidden">
       <div className="absolute inset-0">
         <div className="absolute inset-0 opacity-40">
           <div className="absolute top-0 left-0 w-full h-full" style={{
