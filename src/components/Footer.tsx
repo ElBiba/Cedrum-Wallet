@@ -10,7 +10,7 @@ export function Footer() {
           </div>
 
           <p className="text-blue-400 text-sm text-center">
-            © 2025 Cedrum. All rights reserved.
+            © 2026 Cedrum. All rights reserved.
           </p>
 
           <div className="flex gap-6">

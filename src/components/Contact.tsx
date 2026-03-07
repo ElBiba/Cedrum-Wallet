@@ -12,9 +12,9 @@ const socialLinks = [
   },
   {
     name: "Discord",
-    handle: "discord.gg/QjtnsrhTM",
+    handle: "discord.gg/madPfnsj8f",
     icon: MessageCircle,
-    link: "https://discord.gg/QjtnsrhTM",
+    link: "https://discord.gg/madPfnsj8f",
     color: "hover:bg-indigo-600"
   },
   {
